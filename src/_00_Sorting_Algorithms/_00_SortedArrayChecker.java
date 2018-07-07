@@ -1,12 +1,26 @@
 package _00_Sorting_Algorithms;
 
 public class _00_SortedArrayChecker {
+	
+		int[] arr = new int[0];
+	
 	//1. Write a static method called intArraySorted. 
 	//   This method takes in an array of integers
 	//   and it returns a boolean.
 	//   The method returns true if the integer
 	//   array is in ascending order and false otherwise
+	
 
+
+	public static boolean intArraySorted(arr[]) {
+	
+		
+		//help me help me help me
+		if ()
+		
+		return false;
+		
+	}
 	
 	//2. Write a static method called doubleArraySorted. 
 	//   This method takes in an array of doubles
