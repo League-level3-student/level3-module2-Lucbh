@@ -16,14 +16,20 @@ String[] aidan = {"1200","203","0530","306","34603","14323","402305203","40634",
 		assertEquals(5,l.linearSearch(aidan, "14323"));
 		assertEquals(0,l.linearSearch(aidan, "1200"));
 		assertEquals(12,l.linearSearch(aidan, "7977"));
-
+		
 	}
 
 	@Test
 	void testBinarySearch() {
 		//2. use the assertEquals method to test your binary search method.
+	
 		//   remember that the array must be sorted
+		
+		assertEquals(5,l.linearSearch(aidan, "14323"));
+		assertEquals(0,l.linearSearch(aidan, "1200"));
+		assertEquals(12,l.linearSearch(aidan, "7977"));
 	}
+	
 	
 	@Test
 	void testInterpolationSearch() {
