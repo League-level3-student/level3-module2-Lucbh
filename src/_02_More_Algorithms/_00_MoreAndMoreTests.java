@@ -57,6 +57,8 @@ public class _00_MoreAndMoreTests {
 //
 //	  }
 
-
+public class car {
+	pubic static int fire(Int words)
+}
 
 }

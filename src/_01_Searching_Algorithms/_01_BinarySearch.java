@@ -38,6 +38,8 @@ public class _01_BinarySearch {
 			if (mid > value) {
 				
 				
+				
+				
 				return binarySearch( array,  start,  mid-1,  value);
 				
 				
