@@ -50,22 +50,61 @@ public class Algorithms {
 	return nums;
 }
 	
-	public static int findTallest(List<Double> peeps) {
+	public static double findTallest(List<Double> peeps) {
 		
-		int fire = 0;
+		double fire = 0;
 		
-		for (int i = 0; i < peeps.size();i++) {
+		
 			for (int p = 0; p < peeps.size();p++) {
 				
-			if (peeps.get(p) < peeps.get(p + 1)) {
+			if (fire < peeps.get(p)) {
 				
-				return p;
+				fire = peeps.get(p);
+			
+			}
+			
+			
+		}
+			
+		return fire;
+	}
+	
+	
+	public static String findLongestWord(List<String> words) {
+		String s = "";
+		
+		for (int i = 0; i < words.size()-1;i++) {
+			
+			if ( s.length() < words.get(i+1).length()) {
+				
+				s = words.get(i+1);
 				
 			}
 			
-			}
+			
 		}
-		return fire;
+		
+		return s; 
 	}
+	
+	public static boolean containsSOS(List<String> message1) {
+		
+		for (int i = 0; i < message1.size();i++) {
+		System.out.println(message1.get(i));
+		if (message1.get(i).equals(" ... --- ... ")) {
+			
+			return true;
+			
+		}
+	
+		
+	
+		}
+		
+		
+		return false;
+	}
+	
+
 	
 }
