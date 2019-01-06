@@ -15,7 +15,7 @@ public class _00_SortedArrayChecker {
 	public static boolean intArraySorted(int[] arr) {
 		
 		
-		for (int i = 0; i < arr.length;i++) {
+		for (int i = 0; i < arr.length; i++) {
 
 	 for (int e = 0; e < arr.length-1; e++) {
 		 
@@ -42,14 +42,10 @@ public class _00_SortedArrayChecker {
 	public static boolean doubleArraySorted(double[] arr) {
 		
 		
-
 			
-			
-			for (int i = 0; i < arr.length;i++) {
+			for (int i = 0; i < arr.length; i++) {
 				
 				
-			
-		
 			
 		 for (int e = 0; e < arr.length-1; e++) {
 			 
@@ -81,13 +77,8 @@ public class _00_SortedArrayChecker {
 	public static boolean charArraySorted(char[] arr) {
 		
 		for (int i = 0; i < arr.length;i++) {
-			
-			
-			
-			
-			
+		
 			 for (int e = 0; e < arr.length-1; e++) {
-				 
 				 
 				 
 				 if (arr[e] > arr[e+1]) {
@@ -116,8 +107,6 @@ public class _00_SortedArrayChecker {
 	public static boolean stringArraySorted(String[] arr) {
 		
 		for (int i = 0; i < arr.length;i++) {
-			
-			
 			
 			
 			
