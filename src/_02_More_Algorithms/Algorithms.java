@@ -1,5 +1,6 @@
 package _02_More_Algorithms;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Algorithms {
@@ -106,11 +107,32 @@ public class Algorithms {
 	}
 	
 	
-	public static boolean sortScores(List<Double> results)  {
+	public static List<Double> sortScores(List<Double> results)  {
+		
+		List<Double> d = Arrays.asList(new Double[] {});
+		
+		for (int e = 0; e < results.size()-1; e++) {
+			
+			for (int i = 0; i < results.size()-1; i++) {
+			
+			
+			if (results.get(i) > results.get(i+1)) {
+			Double temp = results.get(i);
+			
+		
+			array[i+1] = array[i];
+			
+			array[i] = temp;
+			display.updateDisplay();
+			
+			}
+		}
+		
+	}
 		
 		System.out.println(results);
 		
-		return 0;
+		return d;
 		
 		
 		
