@@ -27,7 +27,7 @@ class _04_SearchTest {
 
 		// remember that the array must be sorted
 		_01_BinarySearch p = new _01_BinarySearch();
-		assertEquals(1, p.binarySearch(car, 5, 56, 5));
+		assertEquals(0, p.binarySearch(car, 5, 23, 5));
 
 	}
 

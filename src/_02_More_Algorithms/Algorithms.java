@@ -105,6 +105,17 @@ public class Algorithms {
 		return false;
 	}
 	
+	
+	public static boolean sortScores(List<Double> results)  {
+		
+		System.out.println(results);
+		
+		return 0;
+		
+		
+		
+	}
+	
 
 	
 }

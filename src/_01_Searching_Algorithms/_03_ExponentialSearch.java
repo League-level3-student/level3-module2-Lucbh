@@ -35,11 +35,13 @@ public class _03_ExponentialSearch {
 		int minimum;
 		// 7. if counter is less than the length of the array,
 		// set minimum equal to counter
+		
 		if (counter < array.length) {
 
 			minimum = counter;
 
 		}
+		
 		// 8. otherwise, set minimum equal to the length of the array minus 1.
 
 		else {
@@ -51,6 +53,7 @@ public class _03_ExponentialSearch {
 		// half of the counter
 		// minimum
 		// the value to be found
+		
 		_01_BinarySearch p = new _01_BinarySearch();
 
 		int fire = p.binarySearch(array, counter / 2, minimum, value);
